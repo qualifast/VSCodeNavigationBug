@@ -1,0 +1,8 @@
+
+<div class="content" role="main">
+
+  <ng-container *ngIf="!isTestSuccessful">
+    <exp-example [textToShow]="'I am the text to show'" [colorObservable$]="colorObservable$"></exp-example>
+  </ng-container>
+
+<router-outlet></router-outlet>
