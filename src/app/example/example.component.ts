@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ExampleComponent {
 
-  @Input() colorObservable$: Observable<string>;
+  @Input() colorObservable: Observable<string>;
 
   constructor() { }
 
