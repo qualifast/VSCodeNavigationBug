@@ -9,5 +9,5 @@ import { BehaviorSubject } from 'rxjs';
 export class AppComponent {
   title = 'angular13-vscode';
   colorSubject = new BehaviorSubject<string>("red");
-  colorObservable = this.colorSubject.asObservable();
+  colorObservable$ = this.colorSubject.asObservable();
 }
